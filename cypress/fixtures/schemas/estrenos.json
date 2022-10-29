@@ -1,0 +1,60 @@
+{
+    "type": "object",
+    "required": [
+        "datos"
+    ],
+    "additionalProperties": true,
+    "properties": {
+        "datos": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "required": [
+                    "peliculas_codigo",
+                    "estrenos_nombre",
+                    "estrenos_duracion",
+                    "estrenos_genero",
+                    "estrenos_clasificacion",
+                    "estrenos_cartelera",
+                    "estrenos_trailer",
+                    "estrenos_sinopsis",
+                    "estrenos_tipo",
+                    "estrenos_imagenes"
+                ],
+                "additionalProperties": true,
+                "properties": {
+                    "peliculas_codigo": {
+                        "type": "string"
+                    },
+                    "estrenos_nombre": {
+                        "type": "string"
+                    },
+                    "estrenos_duracion": {
+                        "type": "string"
+                    },
+                    "estrenos_genero": {
+                        "type": "string"
+                    },
+                    "estrenos_clasificacion": {
+                        "type": "string"
+                    },
+                    "estrenos_cartelera": {
+                        "type": "string"
+                    },
+                    "estrenos_trailer": {
+                        "type": "string"
+                    },
+                    "estrenos_sinopsis": {
+                        "type": "string"
+                    },
+                    "estrenos_tipo": {
+                        "type": "string"
+                    },
+                    "estrenos_imagenes": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}

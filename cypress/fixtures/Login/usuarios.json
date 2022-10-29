@@ -1,0 +1,12 @@
+{
+    "usuarios": [
+        {
+            "usuarioError": 3518080807,
+            "passError": 1234
+        },
+        {
+            "usuarioOk": 3774418046,
+            "passOk": 8648
+        }
+    ]
+}

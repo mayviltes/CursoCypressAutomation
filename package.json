@@ -1,0 +1,31 @@
+{
+  "name": "cursocypress",
+  "version": "1.0.0",
+  "description": "Curso de cypress",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run:regression:tes": "npx cypress run -c integration",
+    "cypress:run:regression:test:": "npx cypress run -C device/desktop.json",
+    "cypress:run:regression:test:mobile": "npx cypress run -C device/mobile.json" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mayviltes/CursoCypress.git"
+  },
+  "keywords": [
+    "cypress",
+    "js",
+    "testing"
+  ],
+  "author": "Mayra Viltes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayviltes/CursoCypress/issues"
+  },
+  "homepage": "https://github.com/mayviltes/CursoCypress#readme",
+  "dependencies": {
+    "ajv": "^8.11.0",
+    "cypress": "^9.7.0",
+    "cypress-wait-until": "^1.7.2"
+  }
+}

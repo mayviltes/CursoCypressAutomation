@@ -1,0 +1,9 @@
+{
+    "titulo": [
+        {
+            "LoginError": "Las credenciales ingresadas son inválidas.",
+            "LoginOk": "Maria Lucinda Barboza",
+            "LoginNull": "Por favor ingresá tu Número de Línea y Clave."
+        }
+    ]
+}
